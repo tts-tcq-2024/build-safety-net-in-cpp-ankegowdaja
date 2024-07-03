@@ -7,7 +7,7 @@ TEST(SoundexTest, GeneratesCorrectSoundexForEmptyString) {
 
 TEST(SoundexTest, PadsSoundexToFourCharacters) {
     EXPECT_EQ(generateSoundex("A"), "A000");
-    EXPECT_EQ(generateSoundex("I"), "I000");
+    EXPECT_EQ(generateSoundex("Y"), "Y000");
 }
 
 TEST(SoundexTest, GeneratesCorrectSoundexForValidName) {
